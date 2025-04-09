@@ -17,7 +17,7 @@ export default function NameForm() {
 
                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
                     <h4>First Name:</h4>
-                    <input
+                    <input type='text'
                         style={{ width: '15rem', height: '1rem' }}
                         value={name.first}
                         onChange={(e) => setName({ ...name, first: e.target.value })}
@@ -27,7 +27,7 @@ export default function NameForm() {
 
                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
                     <h4>Last Name:</h4>
-                    <input
+                    <input type='text'
                         style={{ width: '15rem', height: '1rem' }}
                         value={name.last}
                         onChange={(e) => setName({ ...name, last: e.target.value })}
