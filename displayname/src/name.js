@@ -7,7 +7,7 @@ export default function NameForm() {
     function handleSubmit(e) {
         e.preventDefault(); // prevent page reload
         setFullName(`${name.first} ${name.last}`); // update full name
-        setName({ ...name, first: '', last: '' })
+        // setName({ ...name, first: '', last: '' })
     }
 
     return (
