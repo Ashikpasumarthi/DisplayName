@@ -38,7 +38,7 @@ export default function NameForm() {
                 <button type="submit">Submit</button>
             </form>
 
-            {fullName && <div style={{ marginTop: '1rem', fontSize: '1.2rem' }}>{fullName}</div>}
+            {fullName && <div style={{ marginTop: '1rem', fontSize: '1.2rem' }}>Full Name: {fullName}</div>}
         </>
     );
 }
